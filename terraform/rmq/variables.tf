@@ -28,7 +28,7 @@ variable "vpc_id" {
 }
 
 variable "group" {
-  description = "the group tag to ansible to identify RMQ"
+  description = "The group name that ansible's dynamic inventory will groups"
 }
 
 variable "profile" {
