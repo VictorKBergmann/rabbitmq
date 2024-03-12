@@ -41,7 +41,7 @@
     
     - name: Start RMQ
       become: yes
-      shell: service rabbit-server start
+      shell: service rabbitmq-server start
 
     - name: Enable RMQ Admin Dash
       become: yes
