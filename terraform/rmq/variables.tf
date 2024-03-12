@@ -5,7 +5,6 @@ variable "region" {
 
 variable "name" {
   description = "RabbitMQ"
-  default     = "server01"
 }
 
 variable "env" {
@@ -30,7 +29,6 @@ variable "vpc_id" {
 
 variable "group" {
   description = "the group tag to ansible to identify RMQ"
-  default     = "t2.micro"
 }
 
 variable "profile" {
